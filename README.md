@@ -1,9 +1,8 @@
 # Automated ELK Stack Deployment
-==============================
+
 The files in this repository were used to configure the network depicted below.  
 
-![Network Diagram](/Diagrams/KVP_Cloud_Security_with_ELK_Deployment_Diagram.png)
-
+![image](https://user-images.githubusercontent.com/96323718/174459050-0a731e37-d43f-4812-9392-42304dc0152a.png)
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **_yml and config_** file may be used to install only certain pieces of it, such as Filebeat.
 
 * [My First Playbook](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Docker/pentest.yml "My First Playbook")
