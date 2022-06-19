@@ -7,12 +7,12 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 * [My First Playbook](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Docker/pentest.yml "My First Playbook")
 * [Hosts](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/ELK_Stack/hosts "Hosts File")
-* [Ansible Configuration](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/ELK_Stack/ansible.cfg "Ansible Configuration File")
-* [Ansible ELK Installation and VM Configuration](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/ELK_Stack/install-elk.yml "ELK Installation and VM Configuration file")
-* [Filebeat Config](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Filebeat/filebeat_config.yml "Filebeat Configuration File")
-* [Filebeat Playbook](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Filebeat/filebeat_playbook.yml "Filebeat Playbook")
-* [Metricbeat Config](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Metricbeat/metricbeat-config.yml "Metricbeat Configuration File")
-* [Metricbeat Playbook](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat Playbook")
+* [Ansible Configuration](/ELK-Stack-Project/blob/main/Ansible/ELK_Stack/ansible.cfg "Ansible Configuration File")
+* [Ansible ELK Installation and VM Configuration](/ELK-Stack-Project/blob/main/Ansible/ELK_Stack/install-elk.yml "ELK Installation and VM Configuration file")
+* [Filebeat Config](/ELK-Stack-Project/blob/main/Ansible/Filebeat/filebeat_config.yml "Filebeat Configuration File")
+* [Filebeat Playbook](/ELK-Stack-Project/blob/main/Ansible/Filebeat/filebeat_playbook.yml "Filebeat Playbook")
+* [Metricbeat Config](/ELK-Stack-Project/blob/main/Ansible/Metricbeat/metricbeat-config.yml "Metricbeat Configuration File")
+* [Metricbeat Playbook](/ELK-Stack-Project/blob/main/Ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat Playbook")
 
 This document contains the following details:
 
@@ -209,7 +209,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to **_Kibana ((Your IP Address):5601_)** to check that the installation worked as expected.
 
 ### **_For ELK VM Configuration:_**
-- Copy the [ELK Installation and VM Configuration ](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/ELK_Stack/install-elk.yml) 
+- Copy the [ELK Installation and VM Configuration ](/ELK-Stack-Project/blob/main/Ansible/ELK_Stack/install-elk.yml) 
 - Run the playbook using this command :  `ansible-playbook /etc/ansible/install-elk.yml`  
 
 ### **_For Filebeat_**
@@ -278,9 +278,9 @@ output.elasticsearch:
 - _Answer the following questions to fill in the blanks:_  
 
 - _Which file is the playbook?_
-  - For Ansible create **_[My First Playbook](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Docker/pentest.yml "My First Playbook")_**
-  - For Filebeat create **_[Filebeat Playbook](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Filebeat/filebeat_playbook.yml "Filebeat Playbook")_**
-  - For Metricbeat create **_[Metricbeat Playbook](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat Playbook")_** - _Where do you copy it?_
+  - For Ansible create **_[My First Playbook](/ELK-Stack-Project/blob/main/Ansible/Docker/pentest.yml "My First Playbook")_**
+  - For Filebeat create **_[Filebeat Playbook](/ELK-Stack-Project/blob/main/Ansible/Filebeat/filebeat_playbook.yml "Filebeat Playbook")_**
+  - For Metricbeat create **_[Metricbeat Playbook](/ELK-Stack-Project/blob/main/Ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat Playbook")_** - _Where do you copy it?_
   - **_/etc/ansible/_**  
 - _Which file do you update to make Ansible run the playbook on a specific machine?_
   - **_/etc/ansible/hosts file (IP of the Virtual Machines)._**  
