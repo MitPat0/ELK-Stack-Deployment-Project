@@ -215,7 +215,7 @@ SSH into the control node and follow the steps below:
 ### **_For Filebeat_**
 - Download Filebeat playbook usng this command: 
   - `curl -L -O https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/filebeat-config.yml`
-- Copy the **_[Filebeat Config](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Filebeat/filebeat_config.yml "Filebeat Configuration File")_** file to **_/etc/ansible_**
+- Copy the **_[Filebeat Config](https://user-images.githubusercontent.com/96323718/174464335-526d1a7a-1035-4cc7-b385-c19a31ae894d.png)** file to **_/etc/ansible_**
 - Update the **_filebeat-config.yml_** file to include the **_ELK private IP 10.2.0.4_** as below from root@9ddf6fe7eb3f:~# `nano /etc/ansible/filebeat-config.yml`
 ```bash
 output.elasticsearch:
