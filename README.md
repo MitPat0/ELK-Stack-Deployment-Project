@@ -184,7 +184,7 @@ We have installed the following Beats on these machines:
 
 - Filebeat
   - [Filebeat Module Status Screenshot](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Filebeat_data_successful.PNG "Filebeat Data Successful")
-
+  - [Filebeat Module Status Screenshot](https://user-images.githubusercontent.com/96323718/174463592-d159a133-e562-4b96-b591-f4eefbe4ae84.png)
 - Metricbeat
   - [Metricbeat Module Status Screenshot](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_data_successful.PNG "Metricbeat Data Successful")
 
