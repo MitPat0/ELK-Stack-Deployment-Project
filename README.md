@@ -155,20 +155,21 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ELKserver
 ---------
-![DockerPS](/Diagrams/Images/Docker_PS_Output/docker_ps_output_ELKserver.PNG "ELKserver")
+![image](https://user-images.githubusercontent.com/96323718/174463345-90483631-52bb-4f5f-9874-a0fb1657edfd.png)
 Jump-Box-Provisioner
 --------------------
-![DockerPS](/Diagrams/Images/Docker_PS_Output/docker_ps_output_Jump-Box-Provisioner.PNG "Jump-Box-Provisioner")
+![image](https://user-images.githubusercontent.com/96323718/174463377-f40cb79a-3d1f-4488-a785-4c99af2f9722.png)
 Web-1
 -----
-![DockerPS](/Diagrams/Images/Docker_PS_Output/docker_ps_output_Web-1.PNG "Web-1")
+![image](https://user-images.githubusercontent.com/96323718/174463437-8f5bcf81-831a-4b54-b9bc-83499d6072d8.png)
+-----
 Web-2
 -----
-![DockerPS](/Diagrams/Images/Docker_PS_Output/docker_ps_output_Web-2.PNG "Web-2")
+![image](https://user-images.githubusercontent.com/96323718/174463431-38bd644b-3329-48eb-b91d-734bcd77ec25.png)
+
 DVWA-VM3
 --------
-![DockerPS](/Diagrams/Images/Docker_PS_Output/docker_ps_output_DVWA-VM3.PNG "DVWA-VM3")  
-
+ ![image](https://user-images.githubusercontent.com/96323718/174463410-49ef4f7a-9277-4aab-beac-968b788d27bb.png)
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Target Machines & Beats  
