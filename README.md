@@ -185,8 +185,7 @@ We have installed the following Beats on these machines:
 - Filebeat
   - [Filebeat Module Status Screenshot](https://user-images.githubusercontent.com/96323718/174463592-d159a133-e562-4b96-b591-f4eefbe4ae84.png)
 - Metricbeat
-  - [Metricbeat Module Status Screenshot](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_data_successful.PNG "Metricbeat Data Successful")
-
+  - [Metricbeat Module Status Screenshot](https://user-images.githubusercontent.com/96323718/174463673-ba1778a4-aa4a-448f-b87f-19380045f3e9.png)
 These Beats allow us to collect the following information from each machine:
 
   - Filebeat will be used to collect log files from very specific files such as Apache, Microsft Azure tools and web servers, MySQL databases.
