@@ -193,10 +193,9 @@ We have installed the following Beats on these machines:
     - [Filebeat Module Kibana Dashboard Screenshot](https://user-images.githubusercontent.com/96323718/174463885-7a5552d5-efba-4da2-bf5a-bce7cc99da5b.png)
   - Metericbeat will be used to monitor VM stats, per CPU core stats, per filesystem stats, memory stats and network stats.
     - [Metricbeat Module Kibana - Metricbeat Docker Overview ECS Dashboard](https://user-images.githubusercontent.com/96323718/174463929-ec8e3fcd-57cd-42a9-bf47-b4c2bb02d857.png)      
-    - [Metricbeat Module Kibana - Metricbeat Docker Web-1 metrics](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_Web-1_metrics.PNG "Metricbeat of Web-1")
-      - [Metricbeat Module Kibana - Metricbeat Docker Web-2 metrics](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_Web-2_metrics.PNG "Metricbeat of Web-2")
-      - [Metricbeat Module Kibana - Metricbeat Docker DVWA-VM3 metrics](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_DVWA-VM3_metrics.PNG "Metricbeat of DVWA-VM3")  
-
+    - [Metricbeat Module Kibana - Metricbeat Docker Web-1 metrics](https://user-images.githubusercontent.com/96323718/174463957-bfa3b48f-44b8-4e04-aae3-970957dcbf71.png)      
+    - [Metricbeat Module Kibana - Metricbeat Docker Web-2 metrics](https://user-images.githubusercontent.com/96323718/174463963-8181e225-f2c5-46dc-8c8d-e7fa0f3304bd.png)
+    - [Metricbeat Module Kibana - Metricbeat Docker DVWA-VM3 metrics](https://user-images.githubusercontent.com/96323718/174463980-230156c6-c6f7-4c75-b79f-9d98478d4b7e.png)
 ## Using the Playbook  
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
