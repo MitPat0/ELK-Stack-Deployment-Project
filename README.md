@@ -190,8 +190,7 @@ We have installed the following Beats on these machines:
  These Beats allow us to collect the following information from each machine:
 
   - Filebeat will be used to collect log files from very specific files such as Apache, Microsft Azure tools and web servers, MySQL databases.
-    - [Filebeat Module Kibana Dashboard Screenshot](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Filebeat_System_Syslog_dashboard.PNG "Kibana Dashboard with Filebeat") 
-
+    - [Filebeat Module Kibana Dashboard Screenshot](https://user-images.githubusercontent.com/96323718/174463885-7a5552d5-efba-4da2-bf5a-bce7cc99da5b.png)
   - Metericbeat will be used to monitor VM stats, per CPU core stats, per filesystem stats, memory stats and network stats.
     - [Metricbeat Module Kibana - Metricbeat Docker Overview ECS Dashboard](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_Overview_ECS_dashboard.PNG "Kibana Dashboard with Metricbeat")
       - [Metricbeat Module Kibana - Metricbeat Docker Web-1 metrics](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_Web-1_metrics.PNG "Metricbeat of Web-1")
