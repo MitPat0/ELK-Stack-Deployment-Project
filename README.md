@@ -237,12 +237,10 @@ setup.kibana:
 # TODO: Change this to the IP address of your ELK server
 ```
 - Run the playbook using this command `ansible-playbook filebeat-playbook.yml` and navigate to [Kibana](http://20.84.136.248:5601/app/kibana) > Logs : Add log data > System logs (DEB) > 5:Module Status > Check Incoming data on Kibana to check that the installation worked as expected.
-  - [Filebeat Module Kibana Dashboard Screenshot](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Filebeat_System_Syslog_dashboard.PNG "Kibana Dashboard with Filebeat") 
-
-### **_For Metricbeat_**
+  - [Filebeat Module Kibana Dashboard Screenshot](https://user-images.githubusercontent.com/96323718/174464497-5e559089-4c9c-4514-88b9-d5e4312a7c38.png)### **_For Metricbeat_**
 - Download Metricbeat playbook using this command:
   - `curl -L -O https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > /etc/ansible/files/metricbeat-config.yml`
-Copy the **_[Metricbeat Config](https://github.com/karma-786/ELK-Stack-Project/blob/main/Ansible/Metricbeat/metricbeat-config.yml "Metricbeat Configuration File")_** file to **_/etc/ansible_**
+Copy the **_[Metricbeat Config](https://user-images.githubusercontent.com/96323718/174464512-4ab56085-9f7e-4b28-a160-73bf10ee0cbc.png)** file to **_/etc/ansible_**
 - Update the **_metricbeat-config.yml_** file to include the **_ELK private IP 10.2.0.4_** as below from root@9ddf6fe7eb3f:~# `nano /etc/ansible/metricbeat-config.yml`
 ```bash
 #============================== Kibana =====================================
