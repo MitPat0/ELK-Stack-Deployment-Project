@@ -192,8 +192,8 @@ We have installed the following Beats on these machines:
   - Filebeat will be used to collect log files from very specific files such as Apache, Microsft Azure tools and web servers, MySQL databases.
     - [Filebeat Module Kibana Dashboard Screenshot](https://user-images.githubusercontent.com/96323718/174463885-7a5552d5-efba-4da2-bf5a-bce7cc99da5b.png)
   - Metericbeat will be used to monitor VM stats, per CPU core stats, per filesystem stats, memory stats and network stats.
-    - [Metricbeat Module Kibana - Metricbeat Docker Overview ECS Dashboard](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_Overview_ECS_dashboard.PNG "Kibana Dashboard with Metricbeat")
-      - [Metricbeat Module Kibana - Metricbeat Docker Web-1 metrics](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_Web-1_metrics.PNG "Metricbeat of Web-1")
+    - [Metricbeat Module Kibana - Metricbeat Docker Overview ECS Dashboard](https://user-images.githubusercontent.com/96323718/174463929-ec8e3fcd-57cd-42a9-bf47-b4c2bb02d857.png)      
+    - [Metricbeat Module Kibana - Metricbeat Docker Web-1 metrics](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_Web-1_metrics.PNG "Metricbeat of Web-1")
       - [Metricbeat Module Kibana - Metricbeat Docker Web-2 metrics](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_Web-2_metrics.PNG "Metricbeat of Web-2")
       - [Metricbeat Module Kibana - Metricbeat Docker DVWA-VM3 metrics](/Diagrams/Images/ELK_VM_Configuration_Screenshots/Metricbeat_Docker_DVWA-VM3_metrics.PNG "Metricbeat of DVWA-VM3")  
 
